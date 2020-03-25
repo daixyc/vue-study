@@ -17,6 +17,11 @@ export default {
       // eslint-disable-next-line vue/no-dupe-keys
       products: this.$store.getters.saleProducts //获取store中state的数据
     };
+  },
+  created() {
+    var a = this.$store.getters.saleProducts;
+    // eslint-disable-next-line no-console
+    console.log(a);
   }
 };
 </script>

@@ -12,6 +12,10 @@
       <transition name="tree">
         <router-link to="/tree">Tree</router-link>
       </transition>
+      |
+      <transition name="tree">
+        <router-link to="/about/a">Children</router-link>
+      </transition>
 
       <!-- <button @click="goto">路由跳转</button> -->
     </div>

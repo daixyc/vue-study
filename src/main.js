@@ -1,9 +1,9 @@
 import Vue from "vue";
-import Vuex from "vuex";
+import Vuex from "./kstore/kvuex";
 import App from "./App.vue";
-import store from "./store/index";
+import store from "./kstore/index";
 import "./registerServiceWorker";
-import router from "./router";
+import router from "./krouter";
 import { create } from "./util/create";
 
 Vue.use(Vuex);
